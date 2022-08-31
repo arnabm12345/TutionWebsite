@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap');
+*{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: rebeccapurple;
+    align-items: center;
+    padding: 7px 13px;
+    margin: 0px 14px;
+    margin-right: 10px;
+    margin-left: 0px;
+    background-color: white;
+   
+}
+#logo img{
+    height: 25px;
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 3px 17px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+body::before{
+    opacity: 0.8;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: -1;
+    position: absolute;
+}
+nav{
+    background-color: gray;
+    padding:12px;
+}
+.container{
+    margin: 12px auto;
+    max-width: 70%;
+}
+h1{
+    text-align: center;
+}
+input{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn{
+    display: block;
+    padding: 12px 5px;
+    background-color: brown;
+    margin:4px auto ;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+#navbar{
+    padding: 8px 20px;
+    height: 55px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+
+}
+#navbar li{
+    text-decoration: none;
+}
+#navbar li a{
+text-decoration: none;
+padding: 7px 25px;
+}
+#navbar li a:hover{
+    color: black;
+    }
+#introsection{
+    padding-bottom: 40px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 40px;
+    background-color: red;
+    background: url('/static/back2.jpg') no-repeat center center;
+    color: rgb(225, 231, 228);
+    flex-direction: column;
+    z-index: -1;
+    opacity: 0.8;
+}
+#sponsorsSection{
+    font-size: 28px;
+ height: 212px;
+ background-color: wheat;
+}
+#sponser{
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.spimg{
+    height: 45%;
+    margin: 18px;
+}
+#sponsorsSection h3{
+    text-align: center;
+    padding-top: 10px;
+}
+#footer{
+    height: 30px;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-family: 'Baloo Bhaina 2', cursive;*/
+}
+#introsection .small{
+    font-size: 25px;
+    color:white;
+}
+#missionSection{
+    height: 300px;
+    margin: auto;
+}
+#missionSection h2{
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+.card{
+    font-family: 'Baloo Bhaina 2', cursive;
+    border: 2px solid black;
+    border-radius: 29px;
+    margin: 11px 8px;
+    height: 180px;
+    width: 31%;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+   /* padding: 0px 10px;*/
+
+}
+.card-content P{
+    font-size: 8PX;
+    align-items: center;
+}

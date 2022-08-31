@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+              img(src="/static/logo.png", alt="")
+              | Success 
+        li   #[a(href='/') Home]
+        li   #[a(href='/') About]
+        li   #[a(href='/') Services]
+        li   #[a(href='/') Class Info]
+        li   #[a(href='/') Contact us]
+        
+    section#introsection 
+      div  Welcome to Arnab`s Private tution 
+      div.small It`s time for your education.
+    section#missionSection 
+      h2  our Mission 
+      div.card
+        h3  Study 
+        div.card-box
+              div.card-img
+                  img(src="/static/1.png", alt="")
+              div.card-content
+              p This is the Best private of the universe.     
+      div.card
+        h3  Explore and Learn
+        div.card-box
+              div.card-img
+                  img(src="/static/2.png", alt="")
+              div.card-content
+              p Explore all the items in your books. 
+      div.card
+        h3  Expert teaching 
+        div.card-box
+              div.card-img
+                  img(src="/static/3.png", alt="")
+              div.card-content
+              p This is the world class teacher platform.
+    section#sponsorsSection 
+      h3  section for sponsors 
+      div#sponser
+          img(src="/static/logo1.png", alt="",class="spimg")
+          img(src="/static/logo2.png", alt="",class="spimg")
+          img(src="/static/logo3.png", alt="",class="spimg")
+          img(src="/static/logo4.png", alt="",class="spimg")
+    footer#footer  
+      | Copyright © 2022 Successtution.com  | All rights reserverd            
+    script
+      include ../static/index.js
